@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>760</width>
+    <height>564</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="profile">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>10</y>
+      <width>75</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: black;
+ border-radius:37px;
+ max-width:75px;
+ max-height:75px;
+ min-width:75px;
+ min-height:75px; background-color: black;
+ border-radius:37px;
+ max-width:75px;
+ max-height:75px;
+ min-width:75px;
+ min-height:75px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <disabledoff>C:/Users/demsh/Downloads/free-icon-user-profile-2734847.png</disabledoff>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddNote">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>400</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: #141414;
+ border-radius:50px;
+ max-width:100px;
+ max-height:100px;
+ min-width:100px;
+ min-height:100px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>C:/Users/demsh/Downloads/free-icon-plus-positive-add-mathematical-symbol-43869.png</normaloff>C:/Users/demsh/Downloads/free-icon-plus-positive-add-mathematical-symbol-43869.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>81</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="journal">
+       <property name="styleSheet">
+        <string notr="true"> background-color: black;
+ border-radius:37px;
+ max-width:75px;
+ max-height:75px;
+ min-width:75px;
+ min-height:75px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>C:/Users/demsh/Downloads/free-icon-journal-2708777.png</normaloff>C:/Users/demsh/Downloads/free-icon-journal-2708777.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>35</width>
+         <height>35</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="progression">
+       <property name="styleSheet">
+        <string notr="true"> background-color: black;
+ border-radius:37px;
+ max-width:75px;
+ max-height:75px;
+ min-width:75px;
+ min-height:75px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>C:/Users/demsh/Downloads/free-icon-graphic-progression-69856.png</normalon>
+        </iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="purpose">
+       <property name="styleSheet">
+        <string notr="true"> background-color: black;
+ border-radius:37px;
+ max-width:75px;
+ max-height:75px;
+ min-width:75px;
+ min-height:75px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>C:/Users/demsh/Downloads/goal_3173700.png</normaloff>C:/Users/demsh/Downloads/goal_3173700.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="styleSheet">
+        <string notr="true"> background-color: black;
+ border-radius:37px;
+ max-width:75px;
+ max-height:75px;
+ min-width:75px;
+ min-height:75px;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normalon>C:/Users/demsh/Downloads/free-icon-weekly-calendar-outline-event-interface-symbol-54332.png</normalon>
+        </iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>10</y>
+      <width>561</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="3">
+      <widget class="QSpinBox" name="lineApproach"/>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLineEdit" name="linWeight"/>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Введите вес</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::TextFormat::AutoText</enum>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Количество подходов</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+       <property name="margin">
+        <number>23</number>
+       </property>
+       <property name="indent">
+        <number>-1</number>
+       </property>
+       <property name="openExternalLinks">
+        <bool>false</bool>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::TextInteractionFlag::NoTextInteraction</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="LineWorkout">
+       <item>
+        <property name="text">
+         <string>Жим лёжа</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Становая тяга</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Присед со штангой</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Бег на дорожке</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Новый элемент</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>выберите упражнение</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignmentFlag::AlignCenter</set>
+       </property>
+       <property name="wordWrap">
+        <bool>false</bool>
+       </property>
+       <property name="margin">
+        <number>22</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1" rowspan="2" colspan="3">
+      <widget class="QTextEdit" name="textEdit">
+       <property name="tabChangesFocus">
+        <bool>false</bool>
+       </property>
+       <property name="documentTitle">
+        <string/>
+       </property>
+       <property name="overwriteMode">
+        <bool>true</bool>
+       </property>
+       <property name="acceptRichText">
+        <bool>true</bool>
+       </property>
+       <property name="textInteractionFlags">
+        <set>Qt::TextInteractionFlag::TextEditorInteraction</set>
+       </property>
+       <property name="placeholderText">
+        <string comment="Заметки для записей самочувствия,ощущениями" extracomment="Заметки для записей самочувствия,ощущениями"/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>760</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFitness_Tracker">
+    <property name="title">
+     <string>Fitness Tracker</string>
+    </property>
+   </widget>
+   <addaction name="menuFitness_Tracker"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
