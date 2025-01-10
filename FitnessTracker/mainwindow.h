@@ -20,6 +20,10 @@ public:
 private slots:
     void on_AddNote_clicked();
 
+    void on_pushButton_clicked();
+
+    void on_journal_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
